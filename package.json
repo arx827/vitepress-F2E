@@ -6,11 +6,12 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "deploy": "sh deploy.sh"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Eason",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0-rc.34",
     "vue": "^3.4.3"

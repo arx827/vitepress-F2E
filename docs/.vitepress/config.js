@@ -3,7 +3,7 @@ import { head, nav, sidebar } from './configs'
 // 主題 配置
 const themeConfig = {
   logo: '/apple-touch-icon.png',
-  siteTitle: 'Vitepress 學習筆記',
+  siteTitle: '前端 學習筆記',
   
   nav,
   sidebar,
