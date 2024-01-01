@@ -1,56 +1,67 @@
 export const sidebar = {
-  '/page/guide/': [
+  '/page/notes/vscode/': [
     {
-      text: '介紹',
+      text: '[博碩] Visual Studio Code 實用指南',
       items: [
+        {
+          text: '-- 本書範例檔',
+          link: 'https://github.com/practical-vscode/practical-guide-to-vscode'
+        },
         { 
-          text: '什麼是 VitePress？',
-          collapsed: true,
-          link: '/page/guide/what-is-vitepress',
-          items: [
-            {
-              text: 'Motivation',
-              link: '/page/guide/what-is-vitepress#motivation',
-            },
-            {
-              text: '對VuePress 的改進',
-              link: '/page/guide/what-is-vitepress#對-vuepress-的改進',
-              items: [
-                {
-                  text: '使用Vue 3',
-                  link: '/page/guide/what-is-vitepress#使用vue-3',
-                },
-                {
-                  text: 'It Uses Vite Under The Hood',
-                  link: '/page/guide/what-is-vitepress#it-uses-vite-under-the-hood',
-                },
-                {
-                  text: 'Lighter Page Weight',
-                  link: '/page/guide/what-is-vitepress#lighter-page-weight',
-                },
-              ]
-            },
-            {
-              text: '其他不同',
-              link: '/page/guide/what-is-vitepress#其他不同',
-            },
-            {
-              text: '這會成為未來的下一個VuePress 嗎？',
-              link: '/page/guide/what-is-vitepress#這會成為未來的下一個vuepress-嗎',
-            },
-          ]
+          text: '01 Visual Studio Code 概覽',
+          link: '/page/notes/vscode/vscode-01',
         },
-        {
-          text: '快速上手',
-          link: '/page/guide/getting-started'
+        { 
+          text: '02 透過實作了解 VS Code Extension',
+          link: '/page/notes/vscode/vscode-02',
         },
-        {
-          text: '配置',
-          link: '/page/guide/configuration'
+        { 
+          text: '03 來點 Combo 吧！ VS Code 的 Task 命令組合技',
+          link: '/page/notes/vscode/vscode-03',
         },
-        {
-          text: '部署',
-          link: '/page/guide/deploy'
+        { 
+          text: '04 VS Code 裡的 Vim：使用鍵盤的姿勢與觀念',
+          link: '/page/notes/vscode/vscode-04',
+        },
+        { 
+          text: '05 VSCodeVim：優雅地使用編輯器',
+          link: '/page/notes/vscode/vscode-05',
+        },
+        { 
+          text: '06 VSCodeVim：高度可配置的設定',
+          link: '/page/notes/vscode/vscode-06',
+        },
+        { 
+          text: '07 Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '08 Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '09 Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '10 Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '11 Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '附錄A Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '附錄B Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
+        },
+        { 
+          text: '附錄C Visual Studio Code 概覽',
+          link: '/page/notes/vscode#_01-visual-studio-code-概覽',
         },
       ],
     },

@@ -22,7 +22,7 @@ const markdown = {
 }
 
 export default {
-  base: '/vitepress-template/',   // 站點將部署在這個 base URL路徑
+  base: '/vitepress-F2E/',   // 站點將部署在這個 base URL路徑
   lang: 'zh-TW',
   title: 'Vitepress',
   description: '學習筆記',

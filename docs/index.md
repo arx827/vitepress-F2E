@@ -2,23 +2,23 @@
   layout: home
   title: 首頁
   hero:
-    name: Vitepress
+    name: 前端
     text: 學習筆記
     # tagline: 標語
     image:
       src: /apple-touch-icon.png
-      alt: VitePress
-    actions:
-      - theme: brand
-        text: 開始
-        link: /page/guide/what-is-vitepress
+      alt: 前端
+    # actions:
+    #   - theme: brand
+    #     text: 開始
+    #     link: /page/guide/what-is-vitepress
     #   - theme: alt
     #     text: View on GitHub
     #     link: https://github.com/vuejs/vitepress
-  # features:
-  #   - icon: ⚡️
-  #     title: vite 超快冷啟動和熱加載
-  #     details: Lorem ipsum...
+  features:
+    - title: '[博碩] Visual Studio Code 實用指南'
+      details: '閱讀筆記'
+      link: '/page/notes/vscode/vscode-01'
 
   #   - icon: 🖖
   #     title: vue的力量與Markdown相遇
